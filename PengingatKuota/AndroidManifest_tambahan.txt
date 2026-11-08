@@ -1,0 +1,7 @@
+Buka app > manifests > AndroidManifest.xml.
+Tambahkan SATU baris ini di dalam <application ...> ... </application>,
+tepat di bawah blok <activity ...MainActivity...> (sebelum </application>):
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
